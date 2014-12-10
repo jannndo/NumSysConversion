@@ -1,0 +1,14 @@
+___!!!!  - konverzia z lubovolneho zakladu na lubovolny zaklad (v tom je zahrnuta spatna konverzia)
+			->teda moznost previest hodnotu v x num sys do hexadecimalneho tvaru. toto potom pomoze pri pointer aritmetike, co zase pomoze s kontrolou pridelovania elementov v poli
+			..->http://www.learncpp.com/cpp-tutorial/68-pointers-arrays-and-pointer-arithmetic/
+
+- stringstream zrejme nevie pohltit vacsie cislo ako double. Treba kuk na net.
+	funcdec.h : line->138
+	->VSEOBECNE NAPRAVIT PRETEKANIE->dat vacsiu premennu napr. double
+	->adept na riesenie: typedef alebo dynamicke rozsirovanie velkosti premennej podla potreby, tak nejak ako dyn rozsirovanie pola
+
+-zamedzit zadavaniu pismen ked treba dat len cisla v urcitom rozmedzi
+
+-vyextrahovat tvorbu poli s dynamickym rozsirovanim elementov
+
+- ked dam do moznosti "continue alebo abort" vacsia cislo ako dokaze pohltit jedno int napr. 100 mrd. tak sa to zacykli
